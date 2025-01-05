@@ -6,7 +6,7 @@ from keras.models import load_model
 import tensorflow as tf
 
 # Load the Model
-model = load_model('C:\Users\Khaja Qutubuddin\OneDrive\Desktop\Plant-Disease-Detection\plant_disease_model.h5')
+model = load_model('C:\\Users\\Khaja Qutubuddin\\OneDrive\\Desktop\\Plant-Disease-Detection\\plant_disease_model.h5')
 
 # Name of Classes
 CLASS_NAMES = ('Tomato-Bacterial_spot', 'Potato-Early_blight', 'Corn-Common_rust')
